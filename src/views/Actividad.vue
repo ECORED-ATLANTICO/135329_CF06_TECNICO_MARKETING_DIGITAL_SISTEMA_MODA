@@ -2,89 +2,87 @@
   .curso-main-container.pb-3
     BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      // Para cuestionario usar: <ActividadController :cuestionario="cuestionario"/>
-      // Para parrafo usar: <ActividadController :parrafo="parrafo"/>
+  
       #Actividad                
-      <ActividadController :cuestionario="cuestionario"/>
+        <Actividad :cuestionario="cuestionario"/>
   
   </template>
 
 <script>
-import ActividadController from '@ecored-sena/boulder-kit/plugin/components/actividad/ActividadController.vue'
-
+import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
 export default {
   name: 'ActividadDidactica',
   components: {
-    ActividadController,
+    Actividad,
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Protocolos de atención y analítica digital',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> verificar la comprensión del aprendiz sobre los protocolos de atención en redes sociales, el manejo de crisis, las herramientas de analítica digital y la interpretación de gráficos mediante la resolución de preguntas de verdadero o falso, a partir de la identificación de conceptos clave desarrollados en el componente formativo relacionados con atención al cliente digital, medición de resultados y análisis de información.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
-      titulo_reprobado: 'VUELVA A INTENTARLO',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Cuál es la finalidad principal de un protocolo de atención?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
+              texto:
+                'Orientar actuaciones uniformes durante la atención al cliente.',
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
-              esCorrecta: true,
+                'Sustituir completamente los procesos comerciales empresariales.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Eliminar la comunicación entre empresa y consumidores.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Reducir la participación del personal de servicio.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Qué beneficio ofrece estandarizar procesos de atención al cliente?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto:
+                'Incrementar la improvisación durante cada servicio prestado.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Garantizar mayor coherencia y calidad en la atención.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Disminuir la comunicación entre las áreas empresariales.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Eliminar la necesidad de capacitar al personal.',
               esCorrecta: false,
             },
           ],
@@ -93,30 +91,30 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            '¿Qué dimensión prioriza cumplir oportunamente compromisos adquiridos con clientes?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Empatía.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Intangibilidad.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
+              texto: 'Capacidad de respuesta.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Seguridad.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -125,29 +123,29 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Qué dimensión refleja atención personalizada según necesidades del cliente?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Fiabilidad.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto: 'Seguridad.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
+              texto: 'Capacidad de respuesta.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
+              texto: 'Empatía.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -155,30 +153,31 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            '¿Qué caracteriza principalmente la dimensión denominada fiabilidad del servicio?',
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
+                'Cumplir compromisos con seguridad, puntualidad y confianza.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto:
+                'Personalizar completamente todas las respuestas comerciales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'Priorizar únicamente la velocidad del servicio pfrecido.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Limitar la interacción entre cliente y organización.',
               esCorrecta: false,
             },
           ],
@@ -188,28 +187,28 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué busca principalmente la gestión de comunicación en crisis?',
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'Incrementar la incertidumbre organizacional.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto: 'Reducir impactos negativos sobre imagen y reputación.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Eliminar completamente las redes sociales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Suspender toda interacción con los clientes.',
               esCorrecta: false,
             },
           ],
@@ -219,28 +218,28 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Cuál etapa antecede normalmente a una crisis organizacional?',
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'Poscrisis.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: 'Recuperación.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'Precrisis.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Estabilización.',
               esCorrecta: false,
             },
           ],
@@ -250,28 +249,28 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué elemento fortalece una adecuada preparación frente a crisis?',
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Ignorar posibles riesgos organizacionales.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Actuar únicamente después del problema.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Planificar acciones preventivas y protocolos definidos.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Evitar toda comunicación con el público.',
               esCorrecta: false,
             },
           ],
@@ -281,19 +280,29 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué permite obtener la analítica digital en organizaciones modernas?',
+          imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Información para apoyar decisiones estratégicas.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Eliminar completamente la investigación comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituir el criterio profesional empresarial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir la recopilación de información digital.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -302,18 +311,29 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué analiza principalmente la analítica digital de sitios web?',
+          imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Únicamente el diseño gráfico institucional.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'El comportamiento e interacción de los usuarios digitales.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Exclusivamente los costos financieros empresariales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Solamente la estructura organizacional interna.',
               esCorrecta: false,
             },
           ],
@@ -322,20 +342,32 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Qué finalidad tiene elaborar informes de analítica digital?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Eliminar el análisis de resultados obtenidos digitalmente.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Presentar información útil para apoyar decisiones estratégicas.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituir completamente la interpretación de indicadores.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir el seguimiento de campañas implementadas.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -344,18 +376,30 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué característica debe tener un informe descriptivo de resultados?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Presentar información clara, organizada y sustentada en datos.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Basarse únicamente en opiniones del analista responsable.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar el uso de evidencias durante la interpretación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Limitar la información presentada al equipo directivo.',
               esCorrecta: false,
             },
           ],
@@ -364,19 +408,29 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿Qué función cumplen los gráficos dentro de un informe?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Reducir la cantidad de información disponible.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Facilitar la comprensión visual de los resultados obtenidos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituir completamente el análisis de datos digitales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar la necesidad de interpretar indicadores.',
               esCorrecta: false,
             },
           ],
@@ -386,19 +440,31 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Qué ventaja aporta interpretar correctamente los indicadores digitales?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Incrementar la incertidumbre durante la toma de decisiones.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Sustituir la planeación estratégica de la organización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Apoyar decisiones mediante evidencia proveniente de los datos.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar la necesidad de realizar seguimiento continuo.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -407,18 +473,199 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Qué permite identificar una adecuada analítica en redes sociales?',
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Tendencias, comportamientos y oportunidades de mejora continua.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Únicamente la cantidad total de publicaciones realizadas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Solamente el número de colaboradores de la organización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Exclusivamente el presupuesto destinado a pauta publicitaria digital.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Qué propósito tienen las métricas dentro de la analítica digital?',
+          imagen: require('@/assets/actividad/imagen6.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Reducir la precisión de la información obtenida.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Medir el desempeño de acciones y estrategias implementadas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar el uso de indicadores durante la evaluación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sustituir completamente los informes de resultados.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué favorece analizar periódicamente los indicadores digitales organizacionales?',
+          imagen: require('@/assets/actividad/imagen7.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Mantener procesos de mejora continua basados en evidencia.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Eliminar el seguimiento de resultados organizacionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituir la planificación mediante decisiones intuitivas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir la capacidad de adaptación frente al entorno.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Qué característica distingue una métrica relevante para la organización?',
+          imagen: require('@/assets/actividad/imagen8.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Basarse únicamente en apreciaciones personales del analista.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Relacionarse directamente con objetivos estratégicos establecidos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Cambiar constantemente sin criterios definidos previamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Medirse exclusivamente cuando existen resultados negativos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué aporta la interpretación conjunta de métricas e indicadores?',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Una visión integral para fortalecer decisiones organizacionales.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Eliminar completamente el análisis estratégico empresarial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituir la evaluación mediante apreciaciones subjetivas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir la importancia de la analítica digital aplicada.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Qué resultado genera integrar protocolos y analítica digital organizacional?',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Disminuir la calidad del servicio ofrecido al cliente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Fortalecer decisiones y mejorar continuamente la atención brindada.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Eliminar la necesidad de medir resultados institucionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Sustituir completamente los protocolos de atención establecidos.',
               esCorrecta: false,
             },
           ],
@@ -429,78 +676,6 @@ export default {
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
       mensaje_final_reprobado:
         'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
     },
   }),
 }
