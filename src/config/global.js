@@ -134,7 +134,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/124108_CF06_DU.pdf',
+        download: 'downloads/124108_CF06_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -205,92 +205,92 @@ export default {
   referencias: [
     {
       referencia:
-        'Agencia Nacional de Evaluación de la Calidad y Acreditación. (2021). <em>Guía para la elaboración de un plan de mejoras.</em> ANECA.',
+        'Agencia Nacional de Evaluación de la Calidad y Acreditación. (2021). Guía para la elaboración de un plan de mejoras. ANECA.',
       link: 'https://www.aneca.es/',
     },
     {
-      referencia: 'AITECO Consultores. (2019). <em>Planes de mejora.</em>',
+      referencia: 'AITECO Consultores. (2019). Planes de mejora.',
       link: 'https://www.aiteco.com/calidad/plan-de-mejora/',
     },
     {
       referencia:
-        'Agència per a la Qualitat del Sistema Universitari de Catalunya. (2005). <em>La calidad, garantía de mejora: Marco general para el establecimiento, el seguimiento y la revisión de los planes de mejora.</em>',
+        'Agència per a la Qualitat del Sistema Universitari de Catalunya. (2005). La calidad, garantía de mejora: Marco general para el establecimiento, el seguimiento y la revisión de los planes de mejora.',
       link: 'https://www.aqu.cat/doc/doc_40159984_1.pdf',
     },
     {
       referencia:
-        'Castillo Esparcia, A., & Ponce, D. (2015). <em>Comunicación de crisis 2.0.</em> Editorial Fragua. ISBN: 978-84-7074-666-6',
+        'Castillo Esparcia, A., & Ponce, D. (2015). Comunicación de crisis 2.0. Editorial Fragua. ISBN: 978-84-7074-666-6',
     },
     {
       referencia:
-        'Congreso de Colombia. (2012, 17 de octubre). <em>Ley 1581 de 2012. Por la cual se dictan disposiciones generales para la protección de datos personales.</em> Diario Oficial.',
+        'Congreso de Colombia. (2012, 17 de octubre). Ley 1581 de 2012. Por la cual se dictan disposiciones generales para la protección de datos personales. Diario Oficial.',
       link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=1684507',
     },
     {
       referencia:
-        'Congreso de Colombia. (2023, 10 de julio). <em>Ley 2300 de 2023. Por medio de la cual se establecen medidas que protejan el derecho a la intimidad de los consumidores.</em> Diario Oficial.',
+        'Congreso de Colombia. (2023, 10 de julio). Ley 2300 de 2023. Por medio de la cual se establecen medidas que protejan el derecho a la intimidad de los consumidores. Diario Oficial.',
       link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=30046853',
     },
     {
       referencia:
-        'Da Silva, D. (2020). <em>Protocolo de atención y servicio al cliente: Qué es, por qué es importante para tu empresa, cómo hacerlo y cuáles son sus ventajas.</em> Zendesk.',
+        'Da Silva, D. (2020). Protocolo de atención y servicio al cliente: Qué es, por qué es importante para tu empresa, cómo hacerlo y cuáles son sus ventajas. Zendesk.',
       link:
         'https://www.zendesk.es/blog/customer-service/protocolo-de-atencion-al-cliente/',
     },
     {
       referencia:
-        'Drucker, P. F. (1990). <em>El ejecutivo eficaz.</em> Editorial Sudamericana.',
+        'Drucker, P. F. (1990). El ejecutivo eficaz. Editorial Sudamericana.',
     },
     {
       referencia:
-        'Emprendedores. (2020). <em>Pautas para elaborar un informe eficaz, comprensible y bien presentado.</em>',
+        'Emprendedores. (2020). Pautas para elaborar un informe eficaz, comprensible y bien presentado.',
       link:
         'https://emprendedores.es/gestion/como-elaborar-un-documento-eficaz-comprensible-y-bien-presentado/',
     },
     {
       referencia:
-        'Enrique Jiménez, A. M. (2007). <em>La comunicación empresarial en situaciones de crisis: Estudio de caso: La crisis de Fontaneda</em> (Tesis doctoral, Universitat Autònoma de Barcelona). Dipòsit Digital de Documents de la UAB.',
+        'Enrique Jiménez, A. M. (2007). La comunicación empresarial en situaciones de crisis: Estudio de caso: La crisis de Fontaneda (Tesis doctoral, Universitat Autònoma de Barcelona). Dipòsit Digital de Documents de la UAB.',
       link: 'https://hdl.handle.net/10803/4142',
     },
     {
       referencia:
-        'Escuela de Negocios y Dirección. (7 de mayo de 2026). <em>Analítica Web: qué es y mejores herramientas.</em> ENyD Blog.',
+        'Escuela de Negocios y Dirección. (7 de mayo de 2026). Analítica Web: qué es y mejores herramientas. ENyD Blog.',
       link:
         'https://www.escueladenegociosydireccion.com/blog/marketing/herramientas-analitica-web-marketing-digital/',
     },
     {
       referencia:
-        'Maldonado, S. (2010). <em>Analítica web: Medir para triunfar.</em> ESIC Editorial.',
+        'Maldonado, S. (2010). Analítica web: Medir para triunfar. ESIC Editorial.',
       link: 'https://books.google.com/books?id=27h3ClYpEM0C',
     },
     {
       referencia:
-        'Ministerio de Comercio, Industria y Turismo. (2015, 26 de mayo). <em>Decreto 1074 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Comercio, Industria y Turismo.</em> Diario Oficial.',
+        'Ministerio de Comercio, Industria y Turismo. (2015, 26 de mayo). Decreto 1074 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Comercio, Industria y Turismo. Diario Oficial.',
       link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=30019935',
     },
     {
       referencia:
-        'Morales Martínez, M. (2011). <em>Analítica web para empresas: Arte, ingenio y anticipación.</em> Editorial UOC.',
+        'Morales Martínez, M. (2011). Analítica web para empresas: Arte, ingenio y anticipación. Editorial UOC.',
       link: 'https://books.google.com/books?id=v9BhAQAACAAJ',
     },
     {
       referencia:
-        'Observatorio Digital (2020). <em>Observatorio Digital: Analítica Digital: mejores herramientas de analítica digital de 2020.</em>',
+        'Observatorio Digital (2020). Observatorio Digital: Analítica Digital: mejores herramientas de analítica digital de 2020.',
       link: 'https://observatorio.digital/blog/analitica-digital-2/#anal',
     },
     {
       referencia:
-        'Proaño Villavicencio, D. X., Gisbert Soler, V., & Pérez Bernabeu, E. (2017). <em>Metodología para elaborar un plan de mejora continua.</em> 3C Empresa: Investigación y pensamiento crítico, edición especial, 50–56.',
+        'Proaño Villavicencio, D. X., Gisbert Soler, V., & Pérez Bernabeu, E. (2017). Metodología para elaborar un plan de mejora continua. 3C Empresa: Investigación y pensamiento crítico, edición especial, 50–56.',
       link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=6300064',
     },
     {
       referencia:
-        'Saura Pérez, P., & García García, F. (2010). <em>La comunicación de crisis como elemento clave de la comunicación empresarial.</em> Icono14, 8(2), 42–56.',
+        'Saura Pérez, P., & García García, F. (2010). La comunicación de crisis como elemento clave de la comunicación empresarial. Icono14, 8(2), 42–56.',
       link: 'https://icono14.net/ojs/index.php/icono14/article/view/245',
     },
     {
       referencia:
-        'Tomás, D. (2018). <em>Analítica web y 5 herramientas para medir tus resultados online.</em> Cyberclick.',
+        'Tomás, D. (2018). Analítica web y 5 herramientas para medir tus resultados online. Cyberclick.',
       link:
         'https://www.cyberclick.es/numerical-blog/analitica-web-y-5-herramientas-para-medir-tus-resultados-online',
     },
@@ -302,7 +302,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Responsable Nacional Ecosistema de Recursos Educativos Digitales (RED) - Profesional 06',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -412,12 +412,12 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -427,7 +427,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos digitales',
+          cargo: 'Validadora y vinculadora de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
@@ -435,7 +435,7 @@ export default {
   ],
   creditosAdicionales: {
     imagenes:
-      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
+      'Fotografías y vectores tomados de <a href="https://www.magnific.com/es" target="_blank">www.magnific.com/es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
     creativeCommons:
       'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
