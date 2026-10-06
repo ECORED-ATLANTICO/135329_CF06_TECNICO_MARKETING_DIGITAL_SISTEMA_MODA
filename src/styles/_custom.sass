@@ -2,23 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 73%
-    right: 44%
+    top: 70%
+    left: 60%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 8%
-    right: 62%
+    bottom: 15%
+    left: 0%
   &-3
-    animation: float1 2s ease-in-out infinite alternate
+    animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 54%
-    right: 13%
-  &-4
-    animation: float1 2.5s ease-in-out infinite alternate
-    position: absolute
-    top: 81%
-    right: 77%
+    top: 21%
+    right: 5%
 
 
 @keyframes float1
@@ -41,9 +36,9 @@ figcaption
   font-weight: normal
 
 .banner-principal__row .banner-principal__img
-  width: 600px !important
-  @media screen and (max-width: $bp-max-xl)
-    width: 400px !important
+  width: 400px !important
+  @media screen and (min-width: $bp-max-xl)
+    width: 500px !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: $color-sistema-texto !important
