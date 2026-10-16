@@ -80,7 +80,7 @@
       .col-lg-5.col-xl-3.mb-3.mb-lg-0
         .bg-color-5.p-4.tarjeta 
           img(src="@/assets/curso/tema4/13.png",style="max-width: 116px" data-aos="zoom-in").mb-3
-          p A continuación, veremos estos elementos en una ficha descriptiva de un producto de una tienda #[em online] que inició vendiendo ropa vintage y hoy día tiene una diversidad de ropa femenina, incluso inició una marca propia. La página es la marca registrada Nasty. Está catalogada como toda una filosofía y un ejemplo de #[em branding]. Revise el sitio web haciendo clic en el siguiente enlace: 
+          p A continuación, veremos estos elementos en una ficha descriptiva de un producto de una tienda #[em online] que inició vendiendo ropa <em>vintage</em> y hoy día tiene una diversidad de ropa femenina, incluso inició una marca propia. La página es la marca registrada Nasty. Está catalogada como toda una filosofía y un ejemplo de #[em branding]. Revise el sitio web haciendo <em>clic</em> en el siguiente enlace: 
           a.boton.color-secundario(href="https://www.nastygal.com/" target="_blank")
             span Visitar sitio web
             i.fas.fa-link

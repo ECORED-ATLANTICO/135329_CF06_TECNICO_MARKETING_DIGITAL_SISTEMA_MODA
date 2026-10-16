@@ -103,7 +103,7 @@
         .col-lg-auto.mb-3.mb-lg-0
           img.d-none.d-lg-flex(src="@/assets/curso/tema2/11.png").mx-auto
         .col-lg
-          p.mb-0 Teniendo en cuenta las anteriores definiciones, se puede enfatizar que la comunicación de crisis debe atenderse antes, durante y después de las situaciones. Se sugiere alistarse con anterioridad a través del protocolo de gestión de comunicación en crisis para preparar a los colaboradores y proveedores ante una emergencia; en consecuencia, es necesario implementar unos en el plan de gestión de comunicación de crisis. ¿Cuáles creería usted que son?, para más información observa el siguiente recurso de aprendizaje:
+          p.mb-0 Teniendo en cuenta las anteriores definiciones, se puede enfatizar que la comunicación de crisis debe atenderse antes, durante y después de las situaciones. Se sugiere alistarse con anterioridad a través del protocolo de gestión de comunicación en crisis para preparar a los colaboradores y proveedores ante una emergencia; en consecuencia, es necesario implementar unos en el plan de gestión de comunicación de crisis. ¿Cuáles creería usted que son?, para más información se detalla el siguiente recurso de aprendizaje:
 
     .row.mb-5.align-items-center.justify-content-center
       .col-md-8.col-lg-5.mb-3.mb-lg-0

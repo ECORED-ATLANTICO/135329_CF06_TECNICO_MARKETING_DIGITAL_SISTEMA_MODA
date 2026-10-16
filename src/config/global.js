@@ -205,27 +205,30 @@ export default {
       link: 'https://www.aneca.es/',
     },
     {
+      referencia:
+        '<em>Agència per a la Qualitat del Sistema Universitari</em> de Catalunya. (2005). La calidad, garantía de mejora: Marco general para el establecimiento, el seguimiento y la revisión de los planes de mejora.',
+      link: 'https://www.aqu.cat/doc/doc_40159984_1.pdf',
+    },
+    {
       referencia: 'AITECO Consultores. (2019). Planes de mejora.',
       link: 'https://www.aiteco.com/calidad/plan-de-mejora/',
     },
     {
       referencia:
-        'Agència per a la Qualitat del Sistema Universitari de Catalunya. (2005). La calidad, garantía de mejora: Marco general para el establecimiento, el seguimiento y la revisión de los planes de mejora.',
-      link: 'https://www.aqu.cat/doc/doc_40159984_1.pdf',
+        'Castillo Esparcia, A., & Ponce, D. (2015). Comunicación de crisis 2.0. Editorial Fragua. ISBN: 978-84-7074-666-6.',
+      link: '',
     },
     {
       referencia:
-        'Castillo Esparcia, A., & Ponce, D. (2015). Comunicación de crisis 2.0. Editorial Fragua. ISBN: 978-84-7074-666-6',
+        'Congreso de Colombia. (2012, 17 de octubre). Ley 1581 de 2012. Por la cual se dictan disposiciones generales para la protección de datos personales.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981',
     },
     {
       referencia:
-        'Congreso de Colombia. (2012, 17 de octubre). Ley 1581 de 2012. Por la cual se dictan disposiciones generales para la protección de datos personales. Diario Oficial.',
-      link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=1684507',
-    },
-    {
-      referencia:
-        'Congreso de Colombia. (2023, 10 de julio). Ley 2300 de 2023. Por medio de la cual se establecen medidas que protejan el derecho a la intimidad de los consumidores. Diario Oficial.',
-      link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=30046853',
+        'Congreso de Colombia. (2023, 10 de julio). Ley 2300 de 2023. Por medio de la cual se establecen medidas que protejan el derecho a la intimidad de los consumidores.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=213990',
     },
     {
       referencia:
@@ -235,7 +238,8 @@ export default {
     },
     {
       referencia:
-        'Drucker, P. F. (1990). El ejecutivo eficaz. Editorial Sudamericana.',
+        'Drucker, P. F. (1990). El ejecutivo eficaz. Buenos Aires: Editorial Sudamericana.',
+      link: '',
     },
     {
       referencia:
@@ -245,7 +249,7 @@ export default {
     },
     {
       referencia:
-        'Enrique Jiménez, A. M. (2007). La comunicación empresarial en situaciones de crisis: Estudio de caso: La crisis de Fontaneda (Tesis doctoral, Universitat Autònoma de Barcelona). Dipòsit Digital de Documents de la UAB.',
+        'Enrique Jiménez, A. M. (2007). La comunicación empresarial en situaciones de crisis: Estudio de caso: La crisis de Fontaneda [Tesis doctoral, Universitat Autònoma de Barcelona]. Dipòsit Digital de Documents de la UAB.',
       link: 'https://hdl.handle.net/10803/4142',
     },
     {
@@ -261,8 +265,9 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Comercio, Industria y Turismo. (2015, 26 de mayo). Decreto 1074 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Comercio, Industria y Turismo. Diario Oficial.',
-      link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=30019935',
+        'Ministerio de Comercio, Industria y Turismo. (2015, 26 de mayo). Decreto 1074 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Comercio, Industria y Turismo.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76608',
     },
     {
       referencia:
@@ -271,7 +276,7 @@ export default {
     },
     {
       referencia:
-        'Observatorio Digital (2020). Observatorio Digital: Analítica Digital: mejores herramientas de analítica digital de 2020.',
+        'Observatorio Digital. (2020). Observatorio Digital: Analítica Digital: mejores herramientas de analítica digital de 2020.',
       link: 'https://observatorio.digital/blog/analitica-digital-2/#anal',
     },
     {

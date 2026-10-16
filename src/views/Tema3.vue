@@ -83,7 +83,7 @@
       .col-lg-8
         p Antes de recolectar o analizar datos de visitantes, usuarios o clientes, es necesario verificar la autorización o base legal para el tratamiento de los datos personales, la finalidad informada al titular, la existencia de una política de privacidad, los tiempos de conservación de la información y las medidas de seguridad aplicables, de conformidad con la Ley 1581 de 2012 y el Decreto 1074 de 2015. 
         .bg-color-25.tarjeta.p-4
-          p Según la Escuela de Negocios y Dirección (2026), existen múltiples herramientas de analítica digital para medir variables clave de tráfico, comportamiento y conversiones tanto en entornos web como en redes sociales. Para más información, lo invitamos a revisar su página web en el siguiente enlace:
+          p Según la Escuela de Negocios y Dirección (2026), existen múltiples herramientas de analítica digital para medir variables clave de tráfico, comportamiento y conversiones tanto en entornos web como en redes sociales. Para más información, lo invitamos a revisar su página web en el siguiente enlace: 
           a.boton.color-secundario.texto-blanco(href="https://www.escueladenegociosydireccion.com/blog/marketing/herramientas-analitica-web-marketing-digital/ " target="_blank")
             span Analítica digital
             i.fas.fa-link

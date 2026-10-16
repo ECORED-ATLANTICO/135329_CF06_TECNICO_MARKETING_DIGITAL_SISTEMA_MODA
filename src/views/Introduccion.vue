@@ -73,7 +73,7 @@
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/intro/8.svg', alt='Texto que describa la imagen')
-          .tarjeta.bg-color-23.p-3(x="12%" y="77%" numero="1")
+          .tarjeta.bg-color-23.p-3(x="12%" y="77%" numero="A")
             .row.justify-content-center
               .col-md-auto
                 img.d-none.d-lg-block(src='@/assets/curso/intro/9.svg' alt='')
@@ -81,14 +81,14 @@
                 h5 ¿Cómo iniciar este proceso aprendizaje?
                 p.mb-0 La difusión de información a través de internet ha generado oportunidades para el desarrollo de nuevos modelos de negocio. Esto se debe, en gran medida, a la analítica que permite procesar datos e información de los clientes para comprender mejor sus necesidades y expectativas. Ante esta realidad surge el presente momento de aprendizaje. ¿Qué esperas para convertirte en un creador de valor para las empresas? 
                 p.mb-0 Es importante tener en cuenta que la recolección, análisis, almacenamiento y uso de datos de clientes debe realizarse de conformidad con la Ley 1581 de 2012, el Decreto 1074 de 2015 y las políticas de tratamiento de datos personales de cada organización. Asimismo, cuando la información se utilice para contactos comerciales, campañas o seguimiento de usuarios, deberán observarse las disposiciones establecidas en la Ley 2300 de 2023 sobre la protección de la intimidad de los consumidores. 
-          .tarjeta.bg-color-23.p-3(x="37%" y="77%" numero="2")
+          .tarjeta.bg-color-23.p-3(x="37%" y="77%" numero="B")
             .row.justify-content-center
               .col-md-auto
                 img.d-none.d-lg-block(src='@/assets/curso/intro/10.svg' alt='')
               .col-md
                 h5 ¿Qué elementos tengo para aprender?
                 p.mb-0 Usted tiene a su disposición un conjunto de recursos de aprendizaje para desarrollar conocimientos, habilidades y actitudes. Entre ellos: infografía, videos, textos de los autores de los componentes y otros.
-          .tarjeta.bg-color-23.p-3(x="63%" y="77%" numero="3")
+          .tarjeta.bg-color-23.p-3(x="63%" y="77%" numero="C")
             .row.justify-content-center
               .col-md-auto
                 img.d-none.d-lg-block(src='@/assets/curso/intro/11.svg' alt='')
@@ -104,7 +104,7 @@
                   li.mb-3.d-flex
                     i.fas.fa-circle.fa-2xs.mt-2.bg-color-27
                     | Si tienes dudas con respecto a su proceso no dudes en escribirle un correo a su instructor.
-          .tarjeta.bg-color-23.p-3(x="88%" y="77%" numero="4")
+          .tarjeta.bg-color-23.p-3(x="88%" y="77%" numero="D")
             .row.justify-content-center
               .col-md-auto
                 img.d-none.d-lg-block(src='@/assets/curso/intro/12.svg' alt='')
