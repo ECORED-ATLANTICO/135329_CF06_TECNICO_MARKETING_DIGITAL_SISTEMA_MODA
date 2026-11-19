@@ -19,10 +19,10 @@
         .bloque-texto-b.color-secundario.p-4(data-aos="fade-up").mb-3
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            h5.mb-0 La capacidad de una organización de reducir o prever los factores de riesgo e incertidumbre respecto al futuro, de forma que se capacite a la misma para asumir de manera rápida y eficaz las operaciones de comunicación necesarias que contribuyan a reducir o eliminar los efectos negativos que una crisis puede provocar sobre su imagen y reputación. (p.46)
+            h5.mb-0 La capacidad de una organización de reducir o prever los factores de riesgo e incertidumbre respecto al futuro, de forma que se capacite a la misma para asumir de manera rápida y eficaz las operaciones de comunicación necesarias que contribuyan a reducir o eliminar los efectos negativos que una crisis puede provocar sobre su imagen y reputación.
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
-            .p.mb-0 González Herrero, 1998, citado por Pérez y García, (2010).
+            .p.mb-0 González Herrero (1998, citado por Pérez y García, 2010, p. 46)
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-3.mb-lg-0
@@ -96,7 +96,7 @@
               .col-lg-auto.mb-3.mb-lg-0
                 img.d-none.d-lg-flex(src="@/assets/curso/tema2/10.png").mx-auto
               .col-lg
-                p.mb-0 Se produce un balance de cómo se han producido los hechos y las decisiones que han debido tomarse para solucionar la crisis. (Pág.23).
+                p.mb-0 Se produce un balance de cómo se han producido los hechos y las decisiones que han debido tomarse para solucionar la crisis. (P. 23).
 
     .bg-color-5.mb-5.p-4.tarjeta
       .row.align-items-center

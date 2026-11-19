@@ -96,7 +96,7 @@
             figure
               img(src="@/assets/curso/tema1/10.png", data-aos="zoom-in")
           .col-lg-8
-            p Alineadas con las políticas de servicio y atención al cliente, las organizaciones deben establecer las dimensiones del protocolo de atención al cliente. En este campo de dimensiones es importante tener en cuenta el concepto de calidad y dimensiones del servicio. Druker (1990), afirma que “La calidad no es lo que se pone dentro de un servicio, es lo que el cliente obtiene de él y por lo que está dispuesto a pagar” (p.41).
+            p Alineadas con las políticas de servicio y atención al cliente, las organizaciones deben establecer las dimensiones del protocolo de atención al cliente. En este campo de dimensiones es importante tener en cuenta el concepto de calidad y dimensiones del servicio. Peter Drucker (1990), afirma que “La calidad no es lo que se pone dentro de un servicio, es lo que el cliente obtiene de él y por lo que está dispuesto a pagar” (p. 41).
             .row.align-items-center.bg-color-9.p-4
               .col-lg-auto.mb-3.mb-lg-0
                 img.d-lg-flex.d-none(src="@/assets/curso/tema1/13.svg").mx-auto

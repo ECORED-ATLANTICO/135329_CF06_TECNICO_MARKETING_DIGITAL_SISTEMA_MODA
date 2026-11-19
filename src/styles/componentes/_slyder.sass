@@ -4,6 +4,9 @@
     &--sigt, &--atrs
       width: 50px
       height: 50px
+      @media (max-width: 991px)
+        width: 30px
+        height: 30px
       background-color: $white
       border-radius: 50%
       background-image: url('../assets/bullets/arrow.svg')
@@ -36,6 +39,11 @@
       opacity: 0.7
       transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
       border: 1px solid $color-sistema-e
+      @media (max-width: 991px)
+        width: 10px
+        height: 10px
+        margin: 0 5px
+        
 
       &--active
         background-color: $color-sistema-b

@@ -19,7 +19,7 @@
               .col-lg-auto.mb-3.mb-lg-0
                 img.d-lg-flex.d-none(src="@/assets/curso/tema3/2.svg").mx-auto
               .col-lg
-                p.mb-0 El conjunto de procesos que permiten gestionar el conocimiento que se obtiene a través de las herramientas de medición de los sitios web, obtener conclusiones y actuar en base a estas conclusiones, con el fin de alinear la estrategia de medición #[em online] con la estrategia de negocio. (p.17).
+                p.mb-0 El conjunto de procesos que permiten gestionar el conocimiento que se obtiene a través de las herramientas de medición de los sitios web, obtener conclusiones y actuar en base a estas conclusiones, con el fin de alinear la estrategia de medición #[em online] con la estrategia de negocio. (p. 17).
         
         p.mb-5 A su vez, Tomas, D. (2018) plantea que la analítica.
 
@@ -29,7 +29,7 @@
             .bloque-texto-b.color-secundario.p-4(data-aos="fade-up").mb-3
               .bloque-texto-b__texto
                 i.fas.fa-quote-left
-                h5.mb-0 Consiste en recopilar la información que generan los usuarios al visitar un sitio web e interactuar con él de diversas maneras. Posteriormente, analizamos todos estos datos para obtener #[em insights] que nos ayuden a mejorar e identificar a un público potencial. (párr.1).
+                h5.mb-0 Consiste en recopilar la información que generan los usuarios al visitar un sitio web e interactuar con él de diversas maneras. Posteriormente, analizamos todos estos datos para obtener #[em insights] que nos ayuden a mejorar e identificar a un público potencial. (párr. 1).
                 i.fas.fa-quote-right
           
         .bloque-texto-g.color-secundario.bg-color-1.p-3.p-sm-4.p-md-5.mb-5

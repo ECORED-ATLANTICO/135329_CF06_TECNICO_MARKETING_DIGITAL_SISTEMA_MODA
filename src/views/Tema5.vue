@@ -105,12 +105,12 @@
               figure
                 img(src='@/assets/curso/tema5/6.png', alt='Imagen de acompañamiento')
             .col-lg-9.mb-4.mb-md-0.order-1
-              h4 Gráfico circular o pastel
+              h4 Gráfico circular o torte
               ul.lista-ul--color
                 li.d-flex
                   i.fa-solid.fa-greater-than.bg-color-4
                   h5 Explicación
-                p.ms-3 Gráfico con gran utilización por su facilidad y sencillez, también conocido como Tora por su representación circular que simboliza la totalidad y se expresa en porcentajes.
+                p.ms-3 Gráfico con gran utilización por su facilidad y sencillez, también conocido como torta por su representación circular que simboliza la totalidad y se expresa en porcentajes.
                 li.d-flex
                   i.fa-solid.fa-greater-than.bg-color-4
                   h5 ¿Cuándo se usa?
@@ -237,16 +237,16 @@
         .row.mb-5.align-items-center.justify-content-center
           .col-md-8.col-lg-10.mb-3.mb-lg-0
             AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-7")
-              div(titulo="Retroespectiva")
+              div(titulo="Retrospectiva")
                 p.ms-5 Análisis descriptivo. Es la interpretación más común del análisis de estadística de redes y páginas web, basadas en acontecimientos del presente y del pasado. Hace referencia a la compilación de información estadística sobre elementos históricos definidos claramente, que se almacenan y se realizan agregaciones del histórico para la comprensión del estado actual o pasado del negocio; como ejemplo podríamos poner clientes, productos, proveedores.
               div(titulo="<em>Insights</em>")
                 p.ms-5 Análisis de diagnóstico. Gira en torno al “porqué”, es decir da elementos de éxito o fallidos de una campaña, generalmente se combina con la información que entrega el análisis descriptivo.
               div(titulo="Previsión")
                 p.ms-5 Análisis predictivo. Basada en el uso de técnicas de <em>machine learning</em>, datos y algoritmos estadísticos que ayudan a contrarrestar información, para visionar la probabilidad de resultados futuros basado en ese material histórico, definiendo si la estrategia va por buen camino y proveer la mejor evaluación de lo que sucederá en el futuro.
               div(titulo="Prospectiva")
-                p.ms-5 Análisis prescriptivo. Va más allá del análisis predictivo pues entrega elementos sobre acciones futuras, pero te da claridad sobre cómo abordar ese escenario para optimizar los resultados.
+                p.ms-5 Análisis prescriptivo. Va más allá del análisis predictivo, pues permite identificar acciones recomendadas y orientar la toma de decisiones.
               div(titulo="Analítica selectiva")
-                p.ms-5 #[em Reporting] que posibilita seleccionar material a través de un filtro con criterios específicos, generalmente se usa para revisión de casos, para grupos de investigación en un área específica o informes de cumplimiento obligatorio.
+                p.ms-5 Informes que permiten seleccionar y organizar información mediante filtros definidos según criterios específicos.
               div(titulo="Analística y exportación de registros")
                 p.ms-5 Traslada información de su fuente original para generar reportes específicos, generalmente se usa cuando se van a analizar clientes, datos demográficos de usuarios o interacciones con el servicio antes y postventa.
               div(titulo="Analíticas periódicas")

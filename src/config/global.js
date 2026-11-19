@@ -343,7 +343,7 @@ export default {
         {
           nombre: 'Andrés Felipe Velandia Espitia',
           cargo: 'Revisor metodológico y pedagógico',
-          centro: 'Centro de Diseño Y Metrología - Regional Distrito Capital',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
       ],
     },
