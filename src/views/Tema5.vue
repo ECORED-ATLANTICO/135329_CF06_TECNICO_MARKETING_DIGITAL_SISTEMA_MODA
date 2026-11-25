@@ -105,7 +105,7 @@
               figure
                 img(src='@/assets/curso/tema5/6.png', alt='Imagen de acompañamiento')
             .col-lg-9.mb-4.mb-md-0.order-1
-              h4 Gráfico circular o torte
+              h4 Gráfico circular o torta
               ul.lista-ul--color
                 li.d-flex
                   i.fa-solid.fa-greater-than.bg-color-4
